@@ -1,10 +1,11 @@
 ### This code snippet is used to connect to an Azure Storage Account and tier all the blobs to Azure Archive Storage Tier.
+### This script will require PS version 7+
 
 ### You need PowerShell module 4.4.0 or newer in order to be able to tier blobs to archive storage
-#install-module Azure -requiredVersion 4.4.0
+#   install-module Azure -requiredVersion 4.4.0
 
 ### Import Azure PowerShell module
-#    Import-Module Azure
+#   Import-Module Azure
 
 ### Login to your Azure Account
     Connect-AzAccount
